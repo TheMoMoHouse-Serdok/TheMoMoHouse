@@ -90,7 +90,9 @@ const MomoHouseApp: React.FC = () => {
           .text-brand-900 {
             color: var(--brand-900);
           }
-
+          .text-brand-white {
+            color: #ffffff;
+          }
           .bg-brand-50 {
             background-color: var(--brand-50);
           }

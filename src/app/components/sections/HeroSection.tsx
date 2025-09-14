@@ -1,4 +1,5 @@
 import { SectionProps } from "@/app/types/navigation";
+import Image from "next/image";
 
 export const HeroSection: React.FC<SectionProps> = ({ setActiveSection }) => {
   return (
@@ -7,9 +8,13 @@ export const HeroSection: React.FC<SectionProps> = ({ setActiveSection }) => {
 
       <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
         <div className="animate-fade-in-up">
-          <h2 className="text-6xl md:text-8xl font-black mb-8 bg-gradient-to-r from-white via-brand-200 to-brand-300 bg-clip-text text-transparent">
-            The Momo House
-          </h2>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={250}
+            height={250}
+            className=" mx-auto mb-6"
+          />
           <p className="text-xl md:text-2xl mb-12 text-brand-200 max-w-3xl mx-auto leading-relaxed">
             Where ancient Tibetan traditions meet modern culinary artistry
           </p>

@@ -4,7 +4,7 @@ import GlfYorkVilleButtons from "../GlfScriptYorkVille";
 
 export const OrderOnlineSection: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-brand-600 to-slate-700">
+    <section className="relative min-h-screen py-28 bg-gradient-to-br from-brand-900 via-slate-800 to-brand-800 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center text-white ">
           <h2 className="text-5xl font-black mb-6">Order Online</h2>

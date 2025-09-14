@@ -3,14 +3,14 @@ import "./globals.css";
 import GlfScript from "./components/GlfScript";
 
 export const metadata: Metadata = {
-  title: "The Momo House - Authentic Tibetan Cuisine",
+  title: "The MoMo House - Authentic Tibetan Cuisine",
   description:
     "Experience the authentic taste of Tibet with our traditional momos and Himalayan dishes. Fresh ingredients, traditional recipes, and warm hospitality.",
   keywords:
     "momo, tibetan food, himalayan cuisine, dumplings, authentic, restaurant",
   authors: [{ name: "The Momo House" }],
   openGraph: {
-    title: "The Momo House - Authentic Tibetan Cuisine",
+    title: "The MoMo House - Authentic Tibetan Cuisine",
     description:
       "Experience the authentic taste of Tibet with our traditional momos",
     type: "website",

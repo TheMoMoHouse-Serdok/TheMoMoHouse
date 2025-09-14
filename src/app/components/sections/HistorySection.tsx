@@ -18,24 +18,24 @@ export const HistorySection: React.FC = () => {
     {
       year: "2020",
       event:
-        "The Momo House was founded to preserve and share authentic Tibetan momo traditions.",
+        "The MoMo House was founded to preserve and share authentic Tibetan momo traditions.",
     },
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
+    <section className="py-20 bg-gradient-to-br from-brand-900 via-slate-800 to-brand-800 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             The Story of Momo
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Discover the rich history and cultural significance of Tibet&apos;s
             most beloved dish
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto ">
           <div className="relative">
             {/* Timeline line */}
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-red-300"></div>
@@ -46,11 +46,11 @@ export const HistorySection: React.FC = () => {
                 className="relative flex items-start mb-12 group"
               >
                 <div className="absolute left-6 w-4 h-4 bg-red-600 rounded-full border-4 border-white shadow-lg group-hover:scale-125 transition-transform duration-300"></div>
-                <div className="ml-16 bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <h3 className="text-xl font-bold text-red-600 mb-2">
+                <div className="ml-16 bg-brand-500 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <h3 className="text-xl font-bold text-white mb-2">
                     {milestone.year}
                   </h3>
-                  <p className="text-gray-700">{milestone.event}</p>
+                  <p className="text-brand-800">{milestone.event}</p>
                 </div>
               </div>
             ))}

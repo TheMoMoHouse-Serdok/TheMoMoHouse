@@ -5,11 +5,10 @@ export const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-brand-500 to-brand-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">མོ་མོ་</span>
-              </div>
               <div>
-                <h3 className="text-2xl font-bold">The Momo House</h3>
+                <span className="text-white font-bold text-lg">མོག་མོག་</span>
+
+                <h3 className="text-2xl font-bold">The MoMo House</h3>
                 <p className="text-brand-300">Authentic Tibetan Cuisine</p>
               </div>
             </div>
