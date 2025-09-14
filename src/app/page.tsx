@@ -12,7 +12,7 @@ import { Footer } from "./components/layout/Footer";
 import Script from "next/script";
 
 const MomoHouseApp: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<SectionId>("history"); // Start with history!
+  const [activeSection, setActiveSection] = useState<SectionId>("home"); // Start with history!
 
   const renderSection = () => {
     switch (activeSection) {
