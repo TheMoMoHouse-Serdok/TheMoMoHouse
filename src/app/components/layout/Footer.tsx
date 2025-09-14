@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
 
               <li>info@themomohouse.com</li>
               <li>
-                1422 Queen St W
+                1416 Queen St W
                 <br />
                 Parkdale, Toronto, CA
               </li>
